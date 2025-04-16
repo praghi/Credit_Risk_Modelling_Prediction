@@ -1,7 +1,7 @@
-🏦 Credit Risk Modelling - ML App (End-to-End)
+# 🏦 Credit Risk Modelling - ML App (End-to-End)
 This project is an end-to-end machine learning application that predicts the likelihood of a loan applicant defaulting on credit. It's designed to help financial institutions make informed lending decisions. The application is built using Python, Scikit-learn/XGBoost, and Streamlit for deployment.
 
-💡 Problem Statement
+# 💡 Problem Statement
 The objective is to classify loan applications as:
 
 Risky (label = 1) – High likelihood of default
@@ -10,11 +10,11 @@ Safe (label = 0) – Low likelihood of default
 
 By analyzing applicants’ financial, employment, and demographic data, this model can assist banks and credit providers in mitigating loan default risk.
 
-🔍 Features
+# 🔍 Features
 📊 Exploratory Data Analysis (EDA)
 Visualize distributions, relationships, and detect imbalance or outliers.
 
-🧹 Data Preprocessing
+# 🧹 Data Preprocessing
 
 Handling missing values
 
@@ -24,7 +24,7 @@ Encoding categorical variables
 
 Scaling/normalization
 
-📦 Model Training
+# 📦 Model Training
 
 XGBoost
 
@@ -34,7 +34,7 @@ Random Forest
 
 Hyperparameter tuning with GridSearchCV
 
-✅ Model Evaluation
+# ✅ Model Evaluation
 
 Confusion Matrix
 
@@ -50,24 +50,24 @@ model.pkl
 
 scaler.pkl
 
-🖥️ Streamlit App Deployment
+# 🖥️ Streamlit App Deployment
 Interactive frontend for inputting applicant details and receiving prediction results.
 
-🔐 Secrets & Credential Management
+# 🔐 Secrets & Credential Management
 
 .env file
 
 Azure Key Vault (optional for production)
 
-📷 Final Streamlit App Output 
+# 📷 Final Streamlit App Output 
 (Comming soon)
 
-🧪 Example Use Cases
+# 🧪 Example Use Cases
 Banks determining eligibility of personal or business loans
 Credit Bureaus evaluating customer risk profile
 FinTech platforms streamlining loan approvals with automation 
 
-🗂️ Version Control Steps (Git)
+# 🗂️ Version Control Steps (Git)
 # Check status
 git status
 
@@ -93,9 +93,13 @@ git checkout -b feature-branch
 git checkout main
 git merge feature-branch
 
-⚠️ Disclaimer
+# ⚠️ Disclaimer
 This project is developed solely for educational and demonstration purposes.
 The dataset used is fictitious. No real individuals, identities, or financial records are associated with this model.Please do not use this application for real-world credit approval decisions.
+
+
+
+
 
 
 
